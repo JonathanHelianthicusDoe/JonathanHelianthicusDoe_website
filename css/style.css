@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #deacff;
 }
 
 h1,
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
 
     font-weight: bold;
@@ -87,6 +87,31 @@ h6::before {
     content: "###### ";
 }
 
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 1rem;
+    border: 0.125rem solid transparent;
+}
+
+.centering {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
 #main-nav {
     width: 100%;
     padding: 1rem 0 1rem 0;
@@ -111,6 +136,7 @@ h6::before {
 
     font-size: 1.5rem;
     text-align: center;
+    color: var(--off-white);
 
     text-decoration: none;
     border-color: var(--off-white);
@@ -119,6 +145,8 @@ h6::before {
 }
 
 .main-nav-elem:hover {
+    color: var(--off-white);
+
     border-bottom-style: solid;
 }
 
@@ -172,6 +200,12 @@ h6::before {
 
 .social-media-logo {
     width: 100%;
+
+    filter: none;
+}
+
+.social-media-logo:hover {
+    filter: drop-shadow(0 0 0.5rem #eeeeee80);
 }
 
 #main-content {
@@ -189,14 +223,86 @@ h6::before {
 }
 
 .h-anchor {
+    color: var(--off-white);
     text-decoration: none;
 }
 
 .h-anchor:hover {
-    text-decoration: underline;
+    color: #fff;
 }
 
-#main-content > p {
+.h-anchor:hover > h1::after,
+.h-anchor:hover > h2::after,
+.h-anchor:hover > h3::after,
+.h-anchor:hover > h4::after,
+.h-anchor:hover > h5::after,
+.h-anchor:hover > h6::after {
+    content: " \1f517";
+}
+
+#main-content-inner > p {
+    margin: 1rem 0 1rem 0;
+
     text-align: none;
     text-justify: auto;
+}
+
+.gags td,
+.coloration td {
+    padding: 0;
+    border: 0.125rem solid #666;
+
+    width: 100%;
+    height: 100%;
+}
+
+.coloration td {
+    border: 0.125rem solid transparent;
+}
+
+.gag-div {
+    width: 1rem;
+    height: 1rem;
+}
+
+.coloration-swatch {
+    width: 2.33rem;
+    height: 2.33rem;
+}
+
+.collapse-td {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.toonup {
+    background-color: #ae50ce;
+}
+
+.trap {
+    background-color: #e8e65a;
+}
+
+.lure {
+    background-color: #33bd35;
+}
+
+.sound {
+    background-color: #8a9ef4;
+}
+
+.throw {
+    background-color: #ed9f32;
+}
+
+.squirt {
+    background-color: #f55bd6;
+}
+
+.drop {
+    background-color: #32eaed;
+}
+
+.org {
+    outline: 0.125rem solid #fff;
 }
