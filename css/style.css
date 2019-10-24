@@ -1,0 +1,202 @@
+:root {
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --off-white: #eee;
+    --off-black: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: monospace;
+    font-size: 1rem;
+    color: var(--off-white);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--off-black);
+    font-family: monospace;
+}
+
+a {
+    color: var(--off-white);
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h1::before {
+    content: "# ";
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h2::before {
+    content: "## ";
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.25rem;
+}
+
+h3::before {
+    content: "### ";
+}
+
+h4::before {
+    content: "#### ";
+}
+
+h5::before {
+    content: "##### ";
+}
+
+h6::before {
+    content: "###### ";
+}
+
+#main-nav {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+#main-nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    list-style: none;
+}
+
+.main-nav-elem {
+    margin: 0.5rem 0.75rem 0.5rem 0.75rem;
+    padding: 0.5rem;
+
+    font-size: 1.5rem;
+    text-align: center;
+
+    text-decoration: none;
+    border-color: var(--off-white);
+    border-width: 0.125rem;
+    border-bottom-style: none;
+}
+
+.main-nav-elem:hover {
+    border-bottom-style: solid;
+}
+
+@media (max-width: 640px) {
+    .main-nav-elem:hover {
+        text-decoration: underline;
+        border-bottom-style: none;
+    }
+}
+
+#curr-nav-elem {
+    border-bottom-style: solid;
+}
+
+@media (max-width: 640px) {
+    #curr-nav-elem {
+        text-decoration: underline;
+        border-bottom-style: none;
+    }
+}
+
+#social-media-nav {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    right: 1rem;
+
+    width: 4rem;
+}
+
+#social-media-nav-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 100%;
+
+    list-style: none;
+}
+
+#social-media-nav-list > li {
+    padding: 0.5rem 0 0.5rem 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-logo {
+    width: 100%;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 8rem 0 8rem;
+}
+
+#main-content-inner {
+    max-width: 64rem;
+}
+
+.h-anchor {
+    text-decoration: none;
+}
+
+.h-anchor:hover {
+    text-decoration: underline;
+}
+
+#main-content > p {
+    text-align: none;
+    text-justify: auto;
+}
