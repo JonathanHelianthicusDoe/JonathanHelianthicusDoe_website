@@ -1,0 +1,17 @@
+{
+    "printWidth": 79,
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": false,
+    "proseWrap": "always",
+    "htmlWhitespaceSensitivity": "css",
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+# IDE stuff
+.vscode/
+*.swp
+
+# other
+*.zip
+*.tar
+*.gz
+*.xz
+*.bzip
+*.bzip2

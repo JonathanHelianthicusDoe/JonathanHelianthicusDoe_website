@@ -18,9 +18,8 @@ All images in the `img/original` directory are licensed to anyone under the
 terms of the [Creative Commons Attribution-ShareAlike license, version
 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (or any higher version,
 at your option). For the relevant legal text, see
-[https://creativecommons.org/licenses/by-sa/4.0/legalcode](https://creativecommons.org/licenses/by-sa/4.0/legalcode),
-or the [img/original/LICENSE](img/original/LICENSE) file for a plaintext
-version.
+[https://creativecommons.org/licenses/by-sa/4.0/legalcode][CC BY-SA 4.0], or
+the [img/original/LICENSE](img/original/LICENSE) file for a plaintext version.
 
 [![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 "CC BY-SA 4.0+")](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -34,5 +33,10 @@ Inc.](https://github.com/) and is a trademark thereof.
 The [Mastodon logo](img/Mastodon_logo.svg) is courtesy of [TootSuite
 (joinmastodon.org)](https://joinmastodon.org/).
 
+The [Matrix logo](img/Matrix_logo.svg) is courtesy of [The Matrix.org
+Foundation](https://matrix.org/).
+
 The [Reddit logo](img/Reddit_logo.svg) is courtesy of [Reddit,
 Inc.](https://www.reddit.com/) and is a trademark thereof.
+
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
