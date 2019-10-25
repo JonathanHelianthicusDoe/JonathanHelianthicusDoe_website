@@ -87,6 +87,15 @@ h6::before {
     content: "###### ";
 }
 
+ul,
+ol {
+    list-style-position: outside;
+}
+
+ul {
+    list-style-type: "\002a\00a0";
+}
+
 code {
     padding: 0.1rem 0.2rem 0.1rem 0.2rem;
     border-radius: 0.25rem;
@@ -130,6 +139,10 @@ address {
     font-style: normal;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .centering {
     display: flex;
     flex-direction: row;
@@ -160,7 +173,7 @@ address {
     text-align: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
     #main-nav-list {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -187,7 +200,7 @@ address {
     border-bottom-style: solid;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
     .main-nav-elem:hover {
         text-decoration: underline;
         border-bottom-style: none;
@@ -198,7 +211,7 @@ address {
     border-bottom-style: solid;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
     #curr-nav-elem {
         text-decoration: underline;
         border-bottom-style: none;
@@ -360,4 +373,31 @@ address {
 
 .org {
     outline: 0.125rem solid #fff;
+}
+
+.block-logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-logo-wrapper,
+.block-logo-wrapper > a {
+    height: 9rem;
+    width: auto;
+}
+
+.block-logo {
+    height: 100%;
+    width: auto;
+}
+
+.centering-figure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }

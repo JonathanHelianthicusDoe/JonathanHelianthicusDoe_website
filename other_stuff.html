@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      other stuff &ndash; Dr. Jonathan Helianthicus Doe, IV (website of)
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" type="image/png" href="./img/original/favicon.png" />
+  </head>
+
+  <body>
+    <!-- Main navigation -->
+    <nav id="main-nav">
+      <ul id="main-nav-list">
+        <li><a href="./index.html" class="main-nav-elem">home</a></li>
+        <li>
+          <a href="./gag_combo_gen_web/index.html" class="main-nav-elem"
+            >gag combo generator</a
+          >
+        </li>
+        <li>
+          <span id="curr-nav-elem" class="main-nav-elem">other stuff</span>
+        </li>
+        <li><a href="./contact.html" class="main-nav-elem">contact</a></li>
+        <li><a href="./source.html" class="main-nav-elem">source</a></li>
+      </ul>
+    </nav>
+
+    <!-- Social media links -->
+    <nav id="social-media-nav">
+      <ul id="social-media-nav-list">
+        <li>
+          <a
+            href="web+diaspora://jonathanhelianthicusdoe@diasp.org"
+            class="centering"
+            ><img
+              src="./img/diaspora_logo.svg"
+              alt="my diaspora*"
+              title="my diaspora*"
+              class="social-media-logo"
+          /></a>
+        </li>
+        <li>
+          <a
+            rel="me"
+            href="https://mastodon.social/@JonathanHelianthicusDoe"
+            class="centering"
+            ><img
+              src="./img/Mastodon_logo.svg"
+              alt="my Mastodon"
+              title="my Mastodon"
+              class="social-media-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://matrix.to/#/@augiiii:matrix.org" class="centering"
+            ><img
+              src="./img/Matrix_logo.svg"
+              alt="my Matrix"
+              title="my Matrix"
+              class="social-media-logo"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/JonathanHelianthicusDoe"
+            class="centering"
+            ><img
+              src="./img/GitHub_logo.png"
+              alt="my GitHub"
+              title="my GitHub"
+              class="social-media-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://reddit.com/u/DrJonathanHDoeIV" class="centering"
+            ><img
+              src="./img/Reddit_logo.svg"
+              alt="my Reddit"
+              title="my Reddit"
+              class="social-media-logo"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Content -->
+    <div id="main-content">
+      <div id="main-content-inner">
+        <a href="#other-stuff" class="h-anchor"
+          ><h1 id="other-stuff">other stuff</h1></a
+        >
+
+        <p>
+          Some other stuff (besides the
+          <a href="./gag_combo_gen_web/index.html">gag combo generator</a>)
+          that I&rsquo;ve made.
+        </p>
+
+        <a href="#shticker-book-unwritten" class="h-anchor"
+          ><h2 id="shticker-book-unwritten">shticker_book_unwritten</h2></a
+        >
+
+        <div class="block-logo-wrapper">
+          <a
+            href="https://github.com/JonathanHelianthicusDoe/shticker_book_unwritten"
+            ><img
+              src="./img/original/shticker_book_unwritten.svg"
+              class="block-logo"
+              alt="shticker_book_unwritten logo (CC BY-SA 4.0+)"
+              title="shticker_book_unwritten logo (CC BY-SA 4.0+)"
+          /></a>
+        </div>
+
+        <p>
+          <a
+            href="https://github.com/JonathanHelianthicusDoe/shticker_book_unwritten"
+            >shticker_book_unwritten</a
+          >
+          is a
+          <a href="https://en.wikipedia.org/wiki/Minimalism_(computing)"
+            >minimal</a
+          >
+          <a href="https://en.wikipedia.org/wiki/Command-line_interface"
+            >CLI</a
+          >
+          launcher for
+          <a href="https://www.toontownrewritten.com/"
+            >Toontown Rewritten (TTR)</a
+          >
+          that supports
+          <a href="https://en.wikipedia.org/wiki/Linux">GNU/Linux</a>,
+          <a href="https://en.wikipedia.org/wiki/Windows_NT">Windows NT</a>,
+          and <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>.
+        </p>
+
+        <p>
+          shticker_book_unwritten is written in
+          <a href="https://www.rust-lang.org/">Rust</a> (more specifically, the
+          &ldquo;<a
+            href="https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/"
+            >safe fragment</a
+          >&rdquo; of the language) for efficiency and
+          <a href="https://en.wikipedia.org/wiki/Memory_safety">safety</a>
+          <a href="https://en.wikipedia.org/wiki/Type_safety">reasons</a>, and
+          sports the following features:
+        </p>
+
+        <ul>
+          <li>
+            Automatic checking for updates and installing update patches as
+            needed.
+          </li>
+          <li>
+            A pseudo-<a href="https://en.wikipedia.org/wiki/Shell_(computing)"
+              >shell</a
+            >
+            interface for launching and managing multiple concurrent TTR
+            instances.
+          </li>
+          <li>
+            The ability to bypass the shell interface and simply exit
+            shticker_book_unwritten as soon as the requested TTR instance(s)
+            are launched (using the <code>-d</code>
+            <a
+              href="https://en.wikipedia.org/wiki/Command-line_interface#Command-line_option"
+              >flag</a
+            >, or its long form, <code>--detach</code>).
+          </li>
+          <li>
+            The ability to store login credentials (including passwords, if
+            requested) in shticker_book_unwritten&rsquo;s configuration file,
+            which is in the
+            <a href="https://json.org/">JSON</a> format (a human-readable
+            <a href="https://en.wikipedia.org/wiki/Plain_text">plain text</a>
+            format). This makes logging in and keeping track of accounts
+            easier.
+          </li>
+        </ul>
+
+        <a href="#kpss" class="h-anchor"
+          ><h2 id="kpss">Kiss-pie-storm-safe (KPSS)</h2></a
+        >
+
+        <div class="block-logo-wrapper">
+          <a href="https://kpss.neocities.org/"
+            ><img
+              src="./img/original/kpss.svg"
+              class="block-logo"
+              alt="Kiss-pie-storm-safe logo (CC BY-SA 4.0+; &ldquo;lipstick&rdquo; by Marco Livolsi, &ldquo;Pie&rdquo; by Made x Made, &ldquo;storm&rdquo; by tsv, &ldquo;safe&rdquo; by Vectorstall; all parent works CC-BY licensed and obtained from the Noun Project)"
+              title="Kiss-pie-storm-safe logo (CC BY-SA 4.0+; &ldquo;lipstick&rdquo; by Marco Livolsi, &ldquo;Pie&rdquo; by Made x Made, &ldquo;storm&rdquo; by tsv, &ldquo;safe&rdquo; by Vectorstall; all parent works CC-BY licensed and obtained from the Noun Project)"
+          /></a>
+        </div>
+
+        <p>
+          <a href="https://kpss.neocities.org/">Kiss-pie-storm-safe</a> (or
+          &ldquo;KPSS&rdquo; for short) is a self-contained ruleset for TTR
+          that allows players to play the game without the use of
+          <a href="https://toontownrewritten.fandom.com/wiki/Sound"
+            >sound gags</a
+          >
+          or
+          <a href="https://toontownrewritten.fandom.com/wiki/Lure">lure gags</a
+          >. Because sound &amp; lure gags are so powerful (in comparison to
+          other gag tracks and in comparison to the abilities of
+          <a href="https://toontownrewritten.fandom.com/wiki/Cogs">cogs</a>),
+          this does a lot of work to
+          <a href="https://en.wikipedia.org/wiki/Game_balance"
+            >balance the game</a
+          >, while still allowing KPSS players to experience everything in the
+          game (including
+          <a href="https://toontownrewritten.fandom.com/wiki/Vice_President"
+            >all</a
+          >
+          <a
+            href="https://toontownrewritten.fandom.com/wiki/Chief_Financial_Officer"
+            >four</a
+          >
+          <a
+            href="https://toontownrewritten.fandom.com/wiki/Chief_Executive_Officer"
+            >boss</a
+          >
+          <a href="https://toontownrewritten.fandom.com/wiki/Chief_Justice"
+            >fights</a
+          >). This is both similar to, and in contrast to, the longstanding
+          practice of making &ldquo;<a
+            href="https://toontownrewritten.fandom.com/wiki/Uber"
+            >uber</a
+          >&rdquo; toons: both KPSS toons and ubers seek to make the game more
+          challenging, but ubers are severely restricted in what they can do
+          (the first handful of
+          <a href="https://toontownrewritten.fandom.com/wiki/ToonTask"
+            >tasks</a
+          >
+          in the game, if that, plus
+          <a href="https://toontownrewritten.fandom.com/wiki/Sellbot_Factory"
+            >factories</a
+          >
+          and
+          <a href="https://toontownrewritten.fandom.com/wiki/Vice_President"
+            >VP</a
+          >s).
+        </p>
+
+        <p>
+          As stated on
+          <a href="https://kpss.neocities.org/">the KPSS website</a>, the goals
+          of KPSS are threefold:
+        </p>
+
+        <ul>
+          <li>
+            To make the game more challenging by making strategizing much more
+            intense than in normal play, and by making cog encounters more
+            risky.
+          </li>
+          <li>
+            To emphasize team play and cooperation by increasing the challenge
+            and removing trivial ways of effectively removing cogs from battle
+            (sound and lure).
+          </li>
+          <li>
+            To balance cog-fighting gameplay by removing an overpowered gag
+            track (sound) and empowering underpowered ones (<a
+              href="https://toontownrewritten.fandom.com/wiki/Toon-Up"
+              >toonup</a
+            >
+            and
+            <a href="https://toontownrewritten.fandom.com/wiki/Drop">drop</a>,
+            especially
+            <a href="https://toontownrewritten.fandom.com/wiki/Organic_gags"
+              >organic</a
+            >).
+          </li>
+        </ul>
+
+        <a href="#skull-finder" class="h-anchor"
+          ><h2 id="skull-finder">
+            Dr. Jonathan Helianthicus Doe&rsquo;s Rough and Ready, Quick and
+            Dirty Guide to Not Failing at Skull Finder (and Minesweeper in
+            General)
+          </h2></a
+        >
+
+        <p>
+          A guide to playing the &ldquo;<a
+            href="https://toontownrewritten.fandom.com/wiki/District_Attorney%27s_Office#Skull_Finder"
+            >Skull Finder</a
+          >&rdquo; (c.f.
+          <a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)"
+            >minesweeper</a
+          >)
+          <a href="https://en.wikipedia.org/wiki/Minigame">minigame</a> found
+          in the
+          <a
+            href="https://toontownrewritten.fandom.com/wiki/District_Attorney's_Office"
+            >DA Offices</a
+          >
+          in TTR. Read the guide here:
+          <a href="https://github.com/JonathanHelianthicusDoe/skull_finder"
+            >https://github.com/JonathanHelianthicusDoe/skull_finder</a
+          >.
+        </p>
+
+        <a href="#on-sbfos" class="h-anchor"
+          ><h2 id="on-sbfos">
+            On sellbot field offices (SBFOs), especially concerning the problem
+            of &ldquo;difficulty&rdquo; in Toontown
+          </h2></a
+        >
+
+        <p>
+          An
+          <a href="https://en.wikipedia.org/wiki/Open_letter">open letter</a
+          >/<a href="https://en.wikipedia.org/wiki/Essay">essay</a> to the TTR
+          team concerning the implementation of an upcoming feature of TTR,
+          &ldquo;sellbot field offices&rdquo;, and how it can and/or should sit
+          with respect to the problem of making TTR an interesting and
+          <em>reasonably challenging</em> game. Read the open letter here:
+          <a
+            href="https://gist.github.com/JonathanHelianthicusDoe/e5a261941bfa0f29148a6999b6ca7a65"
+            >https://gist.github.com/JonathanHelianthicusDoe/e5a261941bfa0f29148a6999b6ca7a65</a
+          >. Also see the relevant thread on Reddit:
+          <a href="https://redd.it/cu9fje">https://redd.it/cu9fje</a>.
+        </p>
+
+        <a href="#visual-art" class="h-anchor"
+          ><h2 id="visual-art">visual art</h2></a
+        >
+
+        <figure class="centering-figure">
+          <img
+            src="./img/original/jon-doe18.svg"
+            alt="self-portrait in Inkscape (CC BY-SA 4.0+)"
+            title="self-portrait in Inkscape (CC BY-SA 4.0+)"
+          />
+          <figcaption>
+            self-portrait in <a href="https://inkscape.org/">Inkscape</a> (<a
+              href="https://creativecommons.org/licenses/by-sa/4.0/"
+              >CC BY-SA 4.0</a
+            >+)
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>
