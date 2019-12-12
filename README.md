@@ -24,6 +24,9 @@ the [img/original/LICENSE](img/original/LICENSE) file for a plaintext version.
 [![CC BY-SA 4.0+](https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 "CC BY-SA 4.0+")](https://creativecommons.org/licenses/by-sa/4.0/)
 
+The [codeberg logo](img/codeberg_logo.png) is courtesy of [Codeberg
+e.V.](https://codeberg.org/).
+
 The [diaspora\* logo](img/diaspora_logo.svg) is courtesy of [the diaspora\*
 foundation](https://diasporafoundation.org/) and is a trademark thereof.
 
