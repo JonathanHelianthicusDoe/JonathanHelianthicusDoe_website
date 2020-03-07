@@ -411,3 +411,7 @@ figcaption {
     align-items: center;
     justify-content: center;
 }
+.centering-figure > img {
+    width: 100%;
+    height: auto;
+}
