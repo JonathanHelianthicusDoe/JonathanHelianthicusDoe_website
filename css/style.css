@@ -410,8 +410,12 @@ figcaption {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    margin: 2.5rem 0 2.5rem 0;
 }
 .centering-figure > img {
     width: 100%;
     height: auto;
+}
+.centering-figure > figcaption {
+    margin-top: 0.5rem;
 }
