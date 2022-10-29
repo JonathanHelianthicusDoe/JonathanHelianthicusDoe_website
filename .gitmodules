@@ -1,6 +1,0 @@
-[submodule "gag_combo_gen_web"]
-	path = gag_combo_gen_web
-	url = https://github.com/JonathanHelianthicusDoe/gag_combo_gen_web.git
-[submodule "gag_combo_gen"]
-	path = gag_combo_gen
-	url = https://github.com/JonathanHelianthicusDoe/gag_combo_gen.git
