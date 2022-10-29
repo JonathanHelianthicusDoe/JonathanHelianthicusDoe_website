@@ -1,11 +1,11 @@
 # JonathanHelianthicusDoe_website
 
 The website of Dr. Jonathan Helianthicus Doe, IV. You can visit here:
-[https://zz.nfshost.com/](https://zz.nfshost.com/).
+<https://drjhdiv.github.io/>.
 
 ## Legal
 
-This entire work (i.e. this document &amp; all associated source code) is
+This entire work (i\.e. this document &amp; all associated source code) is
 licensed to anyone under the terms of the [GNU Affero General Public License,
 version 3](https://www.gnu.org/licenses/agpl-3.0.en.html) (or any higher
 version, at your option). For the relevant legal text, see the
@@ -25,7 +25,7 @@ the [img/original/LICENSE](img/original/LICENSE) file for a plaintext version.
 "CC BY-SA 4.0+")](https://creativecommons.org/licenses/by-sa/4.0/)
 
 The [codeberg logo](img/codeberg_logo.png) is courtesy of [Codeberg
-e.V.](https://codeberg.org/).
+e\.V.](https://codeberg.org/).
 
 The [diaspora\* logo](img/diaspora_logo.svg) is courtesy of [the diaspora\*
 foundation](https://diasporafoundation.org/) and is a trademark thereof.
