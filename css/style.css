@@ -95,7 +95,7 @@ ol {
 }
 
 ul {
-    list-style-type: "\002a\00a0";
+    list-style-type: square;
 }
 
 code {
@@ -107,6 +107,14 @@ code {
 
     color: #fff;
     background-color: #55555580;
+}
+
+pre > code {
+    font-family: monospace;
+    padding: 0;
+    border-radius: 0;
+
+    background-color: none;
 }
 
 pre {
