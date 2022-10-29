@@ -337,6 +337,18 @@ figcaption {
     text-justify: auto;
 }
 
+.gags > caption {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: unset;
+    white-space: nowrap;
+    width: 1px;
+}
+
 .gags td,
 .coloration td {
     padding: 0;
