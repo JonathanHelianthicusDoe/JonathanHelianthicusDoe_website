@@ -1,4 +1,4 @@
 # JonathanHelianthicusDoe\_website
 
-Moved to <https://drjhdiv.github.io/>. Repo is at
-<https://github.com/drjhdiv/drjhdiv.github.io>.
+Moved to <https://jonathanhelianthicusdoe.codeberg.page/>. Repo is at
+<https://codeberg.org/JonathanHelianthicusDoe/pages>.
